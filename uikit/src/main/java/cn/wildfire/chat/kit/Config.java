@@ -91,7 +91,7 @@ public class Config {
      * 组织通讯录服务地址，如果需要组织通讯录功能，请部署组织通讯录服务，然后这里填上组织通讯录服务地址；如果不需要组织通讯录功能，请置为 null
      * 请注意，不能写应用服务地址
      */
-    public static String ORG_SERVER_ADDRESS/*请仔细阅读上面的注释*/ = "https://org.wildfirechat.cn";
+    public static String ORG_SERVER_ADDRESS/*请仔细阅读上面的注释*/ = null;
 
     /**
      * 发送日志命令，当发送此文本消息时，会把协议栈日志发送到当前会话中，为空时关闭此功能。
