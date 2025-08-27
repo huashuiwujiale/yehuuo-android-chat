@@ -76,7 +76,7 @@ public class Config {
      * <p>
      * 如果不想显示工作台，置为 null 即可
      */
-    public static String WORKSPACE_URL = "https://open.wildfirechat.cn/work.html";
+    public static String WORKSPACE_URL = null;
 
     /**
      * 语音识别服务地址，配置之后，长按语音消息，会显示转文字按钮。
@@ -85,7 +85,7 @@ public class Config {
      * <p>
      * 野火提供的测试服务会记录语音文件和转换后的文字，上线会有可能泄密风险。因此请确保务必上线时购买部署自己的语音转文字服务，或者设置为null
      */
-    public static String ASR_SERVER_URL = "https://app.wildfirechat.net/asr/api/recognize";
+    public static String ASR_SERVER_URL = null;
 
     /**
      * 组织通讯录服务地址，如果需要组织通讯录功能，请部署组织通讯录服务，然后这里填上组织通讯录服务地址；如果不需要组织通讯录功能，请置为 null
